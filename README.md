@@ -53,7 +53,7 @@ This model uses the [U-Net architecture](https://arxiv.org/abs/1505.04597), whic
     2 : A bottleneck
     3 : An expanding/ upsampling path
     
-<img src="https://github.com/mlsmall/Image-Segmentation/blob/master/unet.jpg" width="720" />
+<img src="https://github.com/mlsmall/Image-Segmentation/blob/master/unet.jpg" width="680" />
 
 The contracting path is a typical convolutional network that consists convolutions each followed by a rectified linear unit (ReLU) and a max pooling operation. During the contraction, the spatial information is reduced while feature information is increased. The input is reduced to a linear feature representation. 
 
@@ -70,4 +70,4 @@ The result was an image segmentation model with 92.4% accuracy after doing only 
 The images on the left represent the ground truth labels while the images on the right represent their predictions.
 
 
-<img src="https://github.com/mlsmall/Image-Segmentation/blob/master/results.png" width="600" />
+<img src="https://github.com/mlsmall/Image-Segmentation/blob/master/results.png" width="580" />
