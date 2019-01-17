@@ -63,9 +63,9 @@ The linear compression of the input leads to a bottleneck that does not transmit
 
 This particular U-Net uses a pre-trained [ResNet-34](https://arxiv.org/abs/1512.03385) network that was trained on [ImageNet](http://www.image-net.org/).
 
-The result was an image segmentation model with 92.4% accuracy after doing only 10 epochs.
-
 ## Results
+
+The result was an image segmentation model with an accuracy of 92.4% after going through only 10 epochs.
 
 The images on the left represent the ground truth labels while the images on the right represent their predictions.
 
