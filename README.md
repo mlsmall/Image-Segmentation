@@ -45,7 +45,7 @@ Each pixel is color coded to represents a number that is associated to a class. 
 - 'Void': 30
 - 'Wall': 31
  
-## Model Acrhitecture
+## Model Architecture
 
 This model uses the [U-Net architecture](https://arxiv.org/abs/1505.04597), which has been traditionally used for biomedical image segmentation, and its a convulutional nueral network that contains 3 parts:
 
